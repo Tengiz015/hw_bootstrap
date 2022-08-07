@@ -9,7 +9,16 @@
 // }
 .main_s {
     background-image: url(./../img/Background1.png);
-    // background-size: 1440px ;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    @media screen and (min-width:768px) {
+        background-position: top center;        
+    }
+    @media screen and (min-width:992px) {
+        background-position: contain;        
+    }
+    
 
 }
 
